@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(white ,rgba(49, 143, 180,0.7));
+}
+
+.main{
+    border: 1px solid grey;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.left{
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid grey;
+    float: left;
+    margin-top: 35px;
+}
+
+.right{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: rgba(50, 150, 50,0.5);
+    color: white;
+    float: right;
+    margin-top: 20px;
+    clear: both;
+}
+
+.inputstyle{
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 2px;
+    width: 85%;
+    margin-left: 25px;
+    clear: both;
+}

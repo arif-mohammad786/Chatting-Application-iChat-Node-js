@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>iChat</title>
+  
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <h2 class="text-center text-secondary mt-3">WELCOME TO iChat</h2>
+        <div class="row">
+            <div class="col-md-8 mx-auto main mt-3" id="message-container">
+               
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <form action="" id="form">
+                    <input type="text" class="inputstyle" id="inputstyle">
+                    <input type="submit" class="btn btn-secondary btn-sm" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
